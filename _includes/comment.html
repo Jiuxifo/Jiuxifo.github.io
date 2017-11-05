@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="//dn-coding-net-public-file.qbox.me/Coding-Comments/v0.1.0/default.css">
+<script type="text/javascript" src="//dn-coding-net-public-file.qbox.me/Coding-Comments/v0.1.0/gitment.min.js"></script>
+<div id="container"></div>
+<script>
+    var clientId = '624713aab28c44e0555b0e8d5d18dece'
+    var clientSecret = '5d2d45460648bfbd3b9f77bead1a0ac6aa7c3c95'
+    var gitment = new Gitment({
+      owner: 'wusisu',
+      repo: 'wusisu',
+      oauth: {
+        client_id: clientId,
+        client_secret: clientSecret,
+      },
+    })
+    document.getElementById('container').appendChild(gitment.render())
+</script>
