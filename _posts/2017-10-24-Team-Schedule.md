@@ -6,4 +6,4 @@ tag: Schedule
 ---
 
 
-![/styles/images/2.png]({{ '/styles/images/2.png' | prepend: site.baseurl  }})
+![](/styles/images/2.png)
