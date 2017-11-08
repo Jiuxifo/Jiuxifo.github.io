@@ -6,9 +6,9 @@ categories: Formal
 ---
 ## Software Engineering Group Project（AUC1 17-18)
 ## Group 01 Formal Meeting Record
-######Date: 2017/10/17 3:15-4:00pm
-######Absence: no
-######Attendance: 
+###### Date: 2017/10/17 3:15-4:00pm
+###### Absence: no
+###### Attendance: 
 - ZhiChao Gu (ZC)
 - JiaYing Sun (JY)
 - XiaoDong Liu (XD)
