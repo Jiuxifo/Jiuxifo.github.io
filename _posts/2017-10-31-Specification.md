@@ -2,7 +2,6 @@
 layout: post
 title:  Specification
 date:   2017-10-31 16:00:00 +0800
-categories: document
 tag: Spec
 ---
 
