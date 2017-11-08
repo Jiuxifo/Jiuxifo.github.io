@@ -54,31 +54,31 @@ tag: Spec
 
 1. Module information
 
-1.- A module contains a name, a code, an academic year, one or more module conveners, zero or more teaching assistants, and a student list.
+ A module contains a name, a code, an academic year, one or more module conveners, zero or more teaching assistants, and a student list.
 
 2. Module creation
 
-2.- A module must created by an administrator. The name, code, and academic year are required to create a module.
+ A module must created by an administrator. The name, code, and academic year are required to create a module.
 
 3. Updating module information
 
-3.- After the creation, an administrator may modify the information of the module, such as assigning module convenors. (Who will assign the teaching assistants?)[meeting required]
+ After the creation, an administrator may modify the information of the module, such as assigning module convenors. (Who will assign the teaching assistants?)[meeting required]
 
 4. Student list
 
-4.- The student list is a set of student records, including all students once enrolled in the module, with an indicator of the enrollment status, which can be enrolled or exited. Each student record contains a student ID, a first name, a family name, a degree name, a gender, and an email address. The student records belong to the student list. If queries on a particular student involved in multiple modules is needed, the student is uniquely identified by the student ID.
+ The student list is a set of student records, including all students once enrolled in the module, with an indicator of the enrollment status, which can be enrolled or exited. Each student record contains a student ID, a first name, a family name, a degree name, a gender, and an email address. The student records belong to the student list. If queries on a particular student involved in multiple modules is needed, the student is uniquely identified by the student ID.
 
-4.- Any convenor of the module, or administrator, may edit the student list. The student list may be imported from a csv file, ("data source"), or manually edited.
+ Any convenor of the module, or administrator, may edit the student list. The student list may be imported from a csv file, ("data source"), or manually edited.
 
-4.- The system should provide a mechanism for adapting to differently formatted data source.
+ The system should provide a mechanism for adapting to differently formatted data source.
 
-4.- The student records imported from the file should be merged with the existing information. Before the imported data affect the system, a detailed list of affected student records, including newly enrolled students, students present in the system but not in the data source, students in both the system and the data source, but their information conflicts, should be provided to the user.
+ The student records imported from the file should be merged with the existing information. Before the imported data affect the system, a detailed list of affected student records, including newly enrolled students, students present in the system but not in the data source, students in both the system and the data source, but their information conflicts, should be provided to the user.
 
-4.- A student may be added to or removed from the student list, or marked as exited with an exit date. The removal function is only for removing incorrect information from the list, and should issue a warning before proceed.
+ A student may be added to or removed from the student list, or marked as exited with an exit date. The removal function is only for removing incorrect information from the list, and should issue a warning before proceed.
 
 5. Module archive
 
-5.- When a module is finished, an administrator may archive the module, hereafter no information of the module may be changed, and no session of the module may be created, until the module is unarchived.
+ When a module is finished, an administrator may archive the module, hereafter no information of the module may be changed, and no session of the module may be created, until the module is unarchived.
 
 ###### 2.Session
 
@@ -86,23 +86,23 @@ tag: Spec
 
 1. Session information
 
-1.- A session contains a reference to its module, a time, a place, an attendance record, and optionally a type which can be lab, lecture, or customized text.
+ A session contains a reference to its module, a time, a place, an attendance record, and optionally a type which can be lab, lecture, or customized text.
 
 2. Creating a session
 
-2.- A session can be manually created as needed, and removed if its attendance record is not created. Alternatively, a series of session repeating by weeks can be created by specifying the time of first session and a repeat count. Once created, all sessions are independent.
+ A session can be manually created as needed, and removed if its attendance record is not created. Alternatively, a series of session repeating by weeks can be created by specifying the time of first session and a repeat count. Once created, all sessions are independent.
 
 3. Starting a session
 
-3.- Before a session starts, the module convenor should start the session manually to create its attendance record, which will be identical to the student list at that time. Then, the module convenor, or any lab assistant assigned to the module, may obtain a printable document of an attendance sheet containing a list of student ID, student name and signature area. That document may be obtained as many times as needed.
+ Before a session starts, the module convenor should start the session manually to create its attendance record, which will be identical to the student list at that time. Then, the module convenor, or any lab assistant assigned to the module, may obtain a printable document of an attendance sheet containing a list of student ID, student name and signature area. That document may be obtained as many times as needed.
 
 4. Attendance record
 
-4.- The students in the attendance record can be added or removed by the module convenor.
+ The students in the attendance record can be added or removed by the module convenor.
 
 5. Recording attendance
 
-5.- A module convenor or teaching assistant can mark students absent in the attendance record. The module convenor can archive the session so the attendance record cannot be modified until it is unarchived. A senior tutor may attach an absent form series to a student in the attendance record in spite of the current state of the session.
+ A module convenor or teaching assistant can mark students absent in the attendance record. The module convenor can archive the session so the attendance record cannot be modified until it is unarchived. A senior tutor may attach an absent form series to a student in the attendance record in spite of the current state of the session.
 
 ###### 3.Absent form series
 
@@ -110,21 +110,21 @@ tag: Spec
 
 1. Creation
 
-1.- An absent form series must be created by a senior tutor. 
+ An absent form series must be created by a senior tutor. 
 
 2. Information control
 
-2.- The contents of the forms are secured offline. The system only tracks the existance and status of the forms, any handling of the actual forms are performed outside the system.
+ The contents of the forms are secured offline. The system only tracks the existance and status of the forms, any handling of the actual forms are performed outside the system.
 
-2.- The comments can only be accessed by the responsible senior tutor.
+ The comments can only be accessed by the responsible senior tutor.
 
 3. Role
 
-3.- Access to data is control by assigning permissions to objects to allow particular roles to access it, and assigning roles to users. For example, the convenors of a module forms a role, and the module object allows that role to read and write to it.
+ Access to data is control by assigning permissions to objects to allow particular roles to access it, and assigning roles to users. For example, the convenors of a module forms a role, and the module object allows that role to read and write to it.
 
-3.- An object can have zero or more permissions, and a user can have zero or more roles.
+ An object can have zero or more permissions, and a user can have zero or more roles.
 
-3.- Users are created by the administrator (integrate with LDAP if possible).
+ Users are created by the administrator (integrate with LDAP if possible).
 
 ##### 2.Functional components
 ###### 1.Query
@@ -133,17 +133,17 @@ tag: Spec
 
 - Several comment queries should be provided with shortcuts:
 
--1. Absences by module
--2. Absences by student
--3. Absences by week
--4. Absences by date range
+1. Absences by module
+2. Absences by student
+3. Absences by week
+4. Absences by date range
 
 - Users should also be able to make advanced queries on absence records by providing at least one of the following criteria:
 
--1. Module convenor (inclusive/exclusive)
--2. Module (inclusive/exclusive)
--3. Student [id, gender, degree] (inclusive/exclusive)
--4. Time (inclusive range, exclusive range)
+1. Module convenor (inclusive/exclusive)
+2. Module (inclusive/exclusive)
+3. Student [id, gender, degree] (inclusive/exclusive)
+4. Time (inclusive range, exclusive range)
 
 
 #### Summarized permissions
