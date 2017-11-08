@@ -4,18 +4,17 @@ title:  Group 01 Formal Meeting Record
 date:   2017-10-17 15:15:00 +0800
 categories: Formal
 ---
-
 ## Software Engineering Group Project（AUC1 17-18)
 ## Group 01 Formal Meeting Record
-Date: 2017/10/17 3:15-4:00pm
-Absence: no
-Attendance: 
-ZhiChao Gu (ZC)
-JiaYing Sun (JY)
-XiaoDong Liu (XD)
-ZiYao Wang (ZY)
-YuanLiang Gao (YL)
-Mawentai Zeng (WT)
+######Date: 2017/10/17 3:15-4:00pm
+######Absence: no
+######Attendance: 
+- ZhiChao Gu (ZC)
+- JiaYing Sun (JY)
+- XiaoDong Liu (XD)
+- ZiYao Wang (ZY)
+- YuanLiang Gao (YL)
+- Mawentai Zeng (WT)
 
 ### Discussion:
 1. Q&A about requirement and orientation of the system. (YL, ZC, WT)
