@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Group 01 Formal Meeting Record
+title:  17-11-2 Group 01 Formal Meeting Record
 date:   2017-11-2 14:00:00 +0800
 categories: Formal
 ---
