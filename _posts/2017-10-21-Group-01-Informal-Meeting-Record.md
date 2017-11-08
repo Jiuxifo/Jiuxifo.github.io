@@ -2,7 +2,7 @@
 layout: post
 title:  17-10-21 Group 01 Informal Meeting Record
 date:   2017-10-21 20:00:00 +0800
-categories: Formal
+categories: Informal
 ---
 ## Software Engineering Group Project（AUC1 17-18)
 ## Group 01 IfFormal Meeting Record
