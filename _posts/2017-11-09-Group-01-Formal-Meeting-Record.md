@@ -17,7 +17,7 @@ categories: Formal
 - Mawentai Zeng (WT)
 
 ### Discussion:
-1. Discussion about the prototype/mock-up which was made in last week. (WT, YL, JY, XD, ZC)
+####Discussion about the prototype/mock-up which was made in last week. (WT, YL, JY, XD, ZC)
 After each member delivering its own prototypes which are implemented by PowerPoint (WT), hand-writing (YL, ZC), Axure (JY, XD), respectively, it is compulsory to do the combination of each one’s advantages and give an united mock-up. There are some points which are worth referring:
 1. The visualization (ZC) and the absence list (JY) are preferred in next design stage.
 2. The application time of EC should be various which could be one session, one day, several continues days or separated days.
